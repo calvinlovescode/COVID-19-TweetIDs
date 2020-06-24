@@ -1,0 +1,40 @@
+  "(?=.*(\\b5g\\b|\\b5g tower))|
+  (?=.*vaccin)(?=.*(microchip|death|dead))|
+  (?=.*simulat)|
+  (?=.*populat)(?=.*control)|
+  (?=.*canad)(?=.*(\\bspy|\\bspie.?\\b))(?=.*(steal|stole))|
+  (?=.*(america|\\bus\\b|united states|\\busa\\b))(?=.*patent)|
+  (?=.*(china|chinese|prc))(?=.*(\\bbio))(?=.*weapon)|
+  (?=.*charles)(?=.*lieber)|
+  (?=.*wuhan)(?=.*(\\blab\\b|laborator))(?=.*leak)|
+  (?=.*man)(?=.*(made|make))(?=.*(china|chinese|prc|america|\\bus\\b|united states|\\busa\\b))|
+  (?=.*\\bcdc\\b)(?=.*(death|dead))(?=.*(inflat|exagger|overcount|readjust|reduc|deflat))|
+  (?=.*illumi)(?=.*(death|dead))|
+  (?=.*inflat)(?=.*(death|dead))(?=.*(exagger|overcount))|
+  (?=.*(china|chinese|prc))(?=.*(travel|internation))|
+  (?=.*(china|chinese|prc))(?=.*coverup)|
+  (?=.*(china|chinese|prc))(?=.*(death|dead))(?=.*(phone|mobile))|
+  (?=.*(china|chinese|prc))(?=.*kill)(?=.*patient)|
+  (?=.*(china|chinese|prc))(?=.*cremat)(?=.*sulfur)|
+  (?=.*conspirac)(?=.*trump)(?=.*against)|
+  (?=.*harm)(?=.*elect)|
+  (?=.*democrat)(?=.*exagger)(?=.*(risk|threat))|
+  (?=.*exagger)(?=.*(risk|threat))|
+  (?=.*republic)(?=.*downplay)(?=.*(risk|threat))|
+  (?=.*test)(?=.*data)(?=.*(falsif|manipul|fudg|bungl|inflat))|
+  (?=.*fauci)(?=.*(vaccin|invest))|
+  (?=.*flu)(?=.*kill)(?=.*more)|
+  (?=.*same)(?=.*as)(?=.*flu)|
+  (?=.*georg)(?=.*soros)(?=.*(\\blab\\b|laborator))|
+  (?=.*covid)(?=.*hoax)|
+  (?=.*hospit)(?=.*(\\bpay|\\bpaid))(?=.*more)| 
+  (?=.*trump)(?=.*hydroxychloroquin)(?=.*(benefit|profit))|
+  (?=.*obama)(?=.*wuhan)(?=.*(\\blab\\b|laborator))|
+  (?=.*pandemi)(?=.*judy)(?=.*mikovit)|
+  (?=.*\\bcares\\b)(?=.*\\bact\\b)|
+  (?=.*\\bclorox\\b)|
+  (?=.*(cattl|canin))(?=.*vacci)|
+  (?=.*sam)(?=.*hyde)|
+  (?=.*trump)(?=.*testkit)(?=.*stock)|
+  (?=.*trump)(?=.*silen)(?=.*(messonnier|expert))|
+  (?=.*trump)(?=.*(with|held|hold))(?=.*testkit)"
