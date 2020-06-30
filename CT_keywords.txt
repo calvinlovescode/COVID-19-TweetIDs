@@ -1,4 +1,4 @@
-(?=.*(\\b5g\\b)(?=.*(\\bpandemic|\\bepidemic|\\bcorona|\\bvirus\\b|\\bcovd|\\bcovid|\\bsars\\b|\\bflu\\b|\\bncov|\\bkorona|\\btower\\b|\\btelecom|\\bspread|\\bimmun)))|
+(?=.*\\b5g\\b)(?=.*(\\bpandemic|\\bepidemic|\\bcorona|\\bvirus\\b|\\bcovd|\\bcovid|\\bsars\\b|\\bflu\\b|\\bncov|\\bkorona|\\btower\\b|\\btelecom|\\bspread|\\bimmun))|
 (?=.*\\bvaccin)(?=.*(\\bmicrochip)(?=.*\\bdeath|\\bdead.?\\b))|
 (?=.*\\bevent\\b)(?=.*\\b201\\b)|
 (?=.*\\bpopulat)(?=.*\\bcontrol)|
