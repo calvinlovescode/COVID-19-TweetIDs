@@ -1,39 +1,27 @@
-(?=.*\\b5g\\b)(?=.*(\\bpandemic|\\bepidemic|\\bcorona|\\bvirus\\b|\\bcovd|\\bcovid|\\bsars\\b|\\bflu\\b|\\bncov|\\bkorona|\\btower\\b|\\btelecom|\\bspread|\\bimmun))|
-(?=.*\\bvaccin)(?=.*(\\bmicrochip)(?=.*\\bdeath|\\bdead.?\\b))|
-(?=.*\\bevent\\b)(?=.*\\b201\\b)|
-(?=.*\\bpopulat)(?=.*\\bcontrol)|
-(?=.*\\bcanad)(?=.*(\\bspy|\\bspie.?\\b))(?=.*(\\bsteal|\\bstole))|
-(?=.*(\\bamerica|\\bus\\b|united states|\\busa\\b))(?=.*\\bpatent)|
-(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*(\\bbio))(?=.*\\bweapon)|
-(?=.*\\bcharles)(?=.*\\blieber)|
-(?=.*\\bwuhan\\b)(?=.*(\\blab\\b|laborator))(?=.*\\bleak)|
-(?=.*\\bmanmade\\b)(?=.*(\\bchina|\\bchinese|\\bprc\\b|\\bamerica|\\bus\\b|united states|\\busa\\b))|
-(?=.*\\bcdc\\b)(?=.*(\\bdeath|\\bdead))(?=.*(\\binflat|\\bexagger|\\bovercount|\\breadjust|\\breduc|\\bdeflat))|
-(?=.*\\billumi)(?=.*(\\bdeath|\\bdead))|
-(?=.*\\binflat)(?=.*(\\bdeath|\\bdead))(?=.*(\\bexagger|\\bovercount))|
-(?=.*(china|chinese|prc))(?=.*(travel|internation))|
-(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*\\bcoverup)|
-(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*(\\bdeath|\\bdead))(?=.*(phone|mobile))|
-(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*\\bkill)(?=.*\\bpatient)(?=.*(\\b20000\\b|\\b20,000\\b))|
-(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*\\bcremat)(?=.*\\bsulfur)|
-(?=.*\\bconspirac)(?=.*trump)(?=.*\\bagainst)|
-(?=.*\\bharm)(?=.*\\belect)|
-(?=.*democrat)(?=.*exagger)(?=.*(risk|threat))|
-(?=.*\\bexagger)(?=.*(\\brisk|\\bthreat))|
-(?=.*\\brepublic)(?=.*\\bdownplay)(?=.*(\\brisk|\\bthreat))|
-(?=.*\\btest)(?=.*\\bdata)(?=.*(\\bfalsif|\\bmanipul|\\bfudg|\\bbungl|\\binflat))|
-(?=.*fauci)(?=.*(\\bpatent|\\binvest))|
-(?=.*\\bflu\\b)(?=.*(\\bmore|\\bsame\\b|\\blower\\b|\\bas\\b|\\bkill\\b|\\bexagger|\\binflat))|
-(?=.*georg)(?=.*soros)(?=.*(\\blab\\b|\\blaborator))|
-(?=.*(pandemic|epidemic|\\bcorona\\b|\\bvirus\\b|\\bcovd\\b|\\bcovid|\\bflu\\b|\\bncov|\\bkorona))(?=.*\\bhoax)|
-(?=.*\\bhospit)(?=.*(\\bpay|\\bpaid))(?=.*\\bmore)|
-(?=.*trump)(?=.*hydroxychloroquin)(?=.*(\\bbenefit|\\bprofit))|
-(?=.*obama)(?=.*wuhan)(?=.*(\\blab\\b|\\blaborator))|
-(?=.*\\bplandemi)(?=.*judy)(?=.*mikovit)|
-(?=.*\\bcares\\b)(?=.*\\bact\\b)|
-(?=.*\\bclorox\\b)|
-(?=.*(\\bcattl|\\bcanin))(?=.*\\bvacci)|
-(?=.*sam)(?=.*hyde)|
-(?=.*trump)(?=.*\\btestkit)(?=.*(\\bstock|\\bshare|\\bequit))|
-(?=.*trump)(?=.*\\bsilen)(?=.*(messonnier|\\bexpert))|
-(?=.*trump)(?=.*(\\bwith|held\\b|hold\\b))(?=.*\\btestkit)
+ct_1_5g = "(?=.*\\b5g\\b)(?=.*(\\bpandemic|\\bepidemic|\\bcorona|\\bvirus\\b|\\bcovd|\\bcovid|\\bsars\\b|\\bflu\\b|\\bncov|\\bkorona|\\btower\\b|\\btelecom|\\bspread|\\bimmun))"
+ct_2_billgates = "(?=.*\\bvaccin)(?=.*(\\bmicrochip)(?=.*\\bdeath|\\bdead.?\\b))|(?=.*\\bevent\\b)(?=.*\\b201\\b)|(?=.*\\bpopulat)(?=.*\\bcontrol)"
+ct_3_bioweapon = "(?=.*\\bcanad)(?=.*(\\bspy|\\bspie.?\\b))(?=.*(\\bsteal|\\bstole))|(?=.*(\\bamerica|\\bus\\b|united states|\\busa\\b))(?=.*\\bpatent)|(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*(\\bbio))(?=.*\\bweapon)|(?=.*\\bcharles)(?=.*\\blieber)"
+ct_4_lableak = "(?=.*\\bwuhan\\b)(?=.*(\\blab\\b|laborator))(?=.*\\bleak)"
+ct_5_manmadevirus = "(?=.*\\bmanmade\\b)(?=.*(\\bchina|\\bchinese|\\bprc\\b|\\bamerica|\\bus\\b|united states|\\busa\\b))"
+ct_6_death = "(?=.*\\bcdc\\b)(?=.*(\\bdeath|\\bdead))(?=.*(\\binflat|\\bexagger|\\bovercount|\\breadjust|\\breduc|\\bdeflat))|(?=.*\\billumi)(?=.*(\\bdeath|\\bdead))|(?=.*\\binflat)(?=.*(\\bdeath|\\bdead))(?=.*(\\bexagger|\\bovercount))"
+ct_7_chinatravel = "(?=.*(china|chinese|prc))(?=.*(travel|internation))"
+ct_8_chinacoverup = "(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*\\bcoverup)"
+ct_9_chinacellphonedeath = "(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*(\\bdeath|\\bdead))(?=.*(phone|mobile))"
+ct_10_chinakillpatient = "(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*\\bkill)(?=.*\\bpatient)(?=.*(\\b20000\\b|\\b20,000\\b))"
+ct_11_chinamasscremation = "(?=.*(\\bchina|\\bchinese|\\bprc\\b))(?=.*\\bcremat)(?=.*\\bsulfur)"
+ct_12_covidagainsttrump = "(?=.*\\bconspirac)(?=.*trump)(?=.*\\bagainst)|(?=.*\\bharm)(?=.*\\belect)"
+ct_13_exaggeratedthreats = "(?=.*democrat)(?=.*exagger)(?=.*(risk|threat))|(?=.*\\bexagger)(?=.*(\\brisk|\\bthreat))"
+ct_14_repubdownplaythreats = "(?=.*\\brepublic)(?=.*\\bdownplay)(?=.*(\\brisk|\\bthreat))"
+ct_15_statefalsifytest = "(?=.*\\btest)(?=.*\\bdata)(?=.*(\\bfalsif|\\bmanipul|\\bfudg|\\bbungl|\\binflat))"
+ct_16_fauci = "(?=.*fauci)(?=.*(\\bpatent|\\binvest))"
+ct_17_flucompare = "(?=.*\\bflu\\b)(?=.*(\\bmore|\\bsame\\b|\\blower\\b|\\bas\\b|\\bkill\\b|\\bexagger|\\binflat))"
+ct_18_georgesoros = "(?=.*georg)(?=.*soros)(?=.*(\\blab\\b|\\blaborator))"
+ct_19_covidhoax = "(?=.*(pandemic|epidemic|\\bcorona\\b|\\bvirus\\b|\\bcovd\\b|\\bcovid|\\bflu\\b|\\bncov|\\bkorona))(?=.*\\bhoax)"
+ct_20_hospitalpayoff = "(?=.*\\bhospit)(?=.*(\\bpay|\\bpaid))(?=.*\\bmore)"
+ct_21_trumpbenefit = "(?=.*trump)(?=.*hydroxychloroquin)(?=.*(\\bbenefit|\\bprofit))"
+ct_22_obamawuhanlab = "(?=.*obama)(?=.*wuhan)(?=.*(\\blab\\b|\\blaborator))"
+ct_23_plandemic = "(?=.*\\bplandemi)(?=.*judy)(?=.*mikovit)|(?=.*\\bcares\\b)(?=.*\\bact\\b)|(?=.*\\bclorox\\b)|(?=.*(\\bcattl|\\bcanin))(?=.*\\bvacci)"
+ct_24_samhyde = "(?=.*sam)(?=.*hyde)"
+ct_25_trumpowntestkits = "(?=.*trump)(?=.*\\btestkit)(?=.*(\\bstock|\\bshare|\\bequit))"
+ct_26_trumpsiliencemessonier = "(?=.*trump)(?=.*\\bsilen)(?=.*(messonnier|\\bexpert))"
+ct_27_trumpwithholdtestkit = "(?=.*trump)(?=.*(\\bwith|held\\b|hold\\b))(?=.*\\btestkit)"
