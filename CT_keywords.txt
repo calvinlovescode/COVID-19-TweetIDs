@@ -31,7 +31,7 @@ ct_23_plandemic = "(?=.*\\bplandemi)(?=.*\\bjudy)(?=.*mikovit\\b)|
 (?=.*\\bcares\\b)(?=.*\\bact\\b)|
 (?=.*\\bclorox\\b)|
 (?=.*(\\bcattl|\\bcanin))(?=.*\\bvacci)"
-ct_24_samhyde = "(?=.*\\bsam\\b)(?=.*\\bhyde\\b)"
+ct_24_samhyde = "(?=.*\\bsam\\b)(?=.*\\bhyde\\b)|(?=.*\\bsamhyde\\b)"
 ct_25_trumpowntestkits = "(?=.*trump\\b)(?=.*\\btestkit)(?=.*(\\bstock|\\bshare|\\bequit))"
 ct_26_trumpsiliencemessonier = "(?=.*trump\\b)(?=.*\\bsilen)(?=.*(\\bmessonnier|\\bmessonier|\\bexpert))"
 ct_27_trumpwithholdtestkit = "(?=.*trump\\b)(?=.*(\\bwith|held\\b|hold\\b))(?=.*\\btestkit)"
